@@ -1,0 +1,38 @@
+header{
+    font-family: map-get($tema, fuenteTitulos);
+    font-size: 1rem;
+    nav{
+        background: map-get($tema, colorNav);
+        .header__logo{
+            width: $tamanoNav;
+            height: $tamanoNav;
+            filter: invert(0);
+        }
+        .animacionNav:hover{
+            animation:  text-focus-in 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;    
+        }
+        @include movil {
+            justify-content: center;
+        }
+        .dropdown:hover .dropdown-menu {
+                    display: block;
+                    margin-top: 0; 
+        }
+        .navbar1{
+            &__item{
+                padding-right: 1.5rem;
+                padding-left: 1.5rem;
+                text-transform: uppercase;
+                .dropdown:hover .dropdown-menu {
+                    display: block;
+                    margin-top: 0; 
+                }
+                .navbar2{
+                    background-color: map-get($tema, colorNav2);
+                    opacity: .95;
+                }
+            }
+        }  
+    }                  
+ 
+}

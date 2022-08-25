@@ -1,0 +1,44 @@
+//PAGINA INDEX
+//CAROUSEL
+.containerIndex{
+    justify-content: center;
+    .imgCarouselIndex{
+        border-radius: 5%;
+    }
+    &__titulo{
+        font-size: 3rem;
+        @include desktop {
+            font-size: 2rem;
+        }
+        @include tableth {
+            font-size: 1.5rem;
+        }
+        @include tabletv {
+            font-size: 1;
+        }
+    }
+    &__subtitulo{
+        font-size: 1.5rem;
+        font-family: map-get($tema, fuenteTexto);
+        @include desktop {
+            font-size: 1rem;
+        }
+        @include tableth {
+            font-size: .8rem;
+        }
+    }
+}
+
+//SECCION SOLUCIONES
+.indexSolucion{
+      
+    &__img:hover{
+        transform: scale(.99, .99);
+        opacity: .8;
+    }
+}
+
+.imgCar{
+    min-height: 300px;
+    object-fit: cover;
+}

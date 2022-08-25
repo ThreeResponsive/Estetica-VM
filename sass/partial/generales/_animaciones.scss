@@ -1,0 +1,11 @@
+//ANIMACION FOCUS IN -- Animista
+@keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+}

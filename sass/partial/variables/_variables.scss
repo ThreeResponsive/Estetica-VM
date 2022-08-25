@@ -1,0 +1,25 @@
+// VARIABLES (camelCase)
+
+// tamano fuente responsive
+$textDesktop: 18px;
+$textTableth: 17px;
+$textTabletv: 16px;
+$textMovil: 15px;
+
+// fuentes y colores sitio
+$tema:(
+    fuenteTitulos: 'Montserrat',
+    fuenteTexto: 'Open Sans',
+    colorFondo: white,
+    colorNav: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 95%, rgba(33,37,41,1) 100%),
+    colorNav2: rgb(119, 117, 117),
+    colorSubtitulo: #1b1a27,
+);
+
+// tamano nav
+$tamanoNav: 3rem;
+
+// padding main
+$paddingMain: $tamanoNav + 2;
+$paddingMainIndex: $tamanoNav + 1.5;
+

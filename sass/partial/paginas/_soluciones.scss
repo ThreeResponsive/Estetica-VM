@@ -1,0 +1,13 @@
+//PAGINA SOLUCIONES
+
+.imgSolucion{
+    height: auto;
+    width: 100%;
+    border-radius: 5%;
+    object-fit: fill;
+}
+
+.textodescriptivo{
+    font-family: map-get($tema, fuenteTexto);
+    text-align: justify;
+}

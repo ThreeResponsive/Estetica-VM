@@ -1,0 +1,27 @@
+//FOOTER
+
+footer{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: linear-gradient(180deg, rgba(33,37,41,1) 0%, rgba(13,110,253,1) 100%);
+    font-family: map-get($tema, fuenteTexto);
+    .animacionFooter:hover{
+      animation:  text-focus-in 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;    
+    }
+    a{
+      img{
+          padding: 0.2rem;
+          height: 3.5rem;
+          filter: invert(1);
+          @include tableth {
+            height: 3rem;
+          }
+        }
+        .footer__logo{
+          width: 10rem;
+          height: 10rem;
+        }
+      }
+  }

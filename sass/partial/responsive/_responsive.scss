@@ -1,0 +1,25 @@
+//RESPONSIVE para todo el SITO
+
+@mixin desktop {
+    @media screen and (max-width:768px) {
+        @content;        
+    }
+}
+
+@mixin tableth {
+    @media screen and (max-width:575px) {
+        @content;        
+    }
+}
+
+@mixin tabletv {
+    @media screen and (max-width:480px) {
+        @content;        
+    }
+}
+
+@mixin movil {
+    @media screen and (max-width:320px) {
+        @content;        
+    }
+}

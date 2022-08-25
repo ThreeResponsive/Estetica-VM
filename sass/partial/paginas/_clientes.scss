@@ -1,0 +1,16 @@
+//PAGINA CLIENTES
+
+.contenedorClientes{
+    height: 18rem;
+    
+    &__galeriaImg{
+        width: 99%;
+        height: 99%;
+        object-fit: cover;
+    }
+    
+    &__galeriaImg:hover{
+        object-fit: contain;
+        filter: drop-shadow(rgb(6, 3, 12) 5px 5px);
+    }
+}

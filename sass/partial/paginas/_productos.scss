@@ -1,0 +1,21 @@
+//PAGINA PRODUCTOS
+
+.listaCaracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background-image: url(../assets/fondoproductos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &Particulares{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgProducto{
+        height: 70%;
+        width: 100%;
+        border-radius: 5%;
+    }
+}

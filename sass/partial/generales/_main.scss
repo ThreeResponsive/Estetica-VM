@@ -1,0 +1,23 @@
+//MAIN para todo el SITIO
+
+main{
+    font-family: map-get($tema, fuenteTitulos);
+    padding-top: $paddingMain;
+    .titulo__pagina{
+        color: map-get($tema, colorSubtitulo);
+        opacity: 0.7;
+        text-align: center;
+    }
+    .subtitulo__pagina{
+        @extend .titulo__pagina;
+        margin-top: 3rem;
+    }
+    .subtitulo__seccion{
+        @extend .titulo__pagina;
+        margin-top: 0rem;
+    }
+}
+
+.main__index{
+    padding-top: $paddingMainIndex;
+}

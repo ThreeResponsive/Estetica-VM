@@ -1,0 +1,31 @@
+.hero{
+    position: relative;
+    &__titulo{
+        position: absolute;
+        left: 10px;
+        bottom: 5rem;
+        color: map-get($tema, colorFondo);
+        font-size: 5rem;
+        font-weight: bold;
+        @include desktop{
+            font-size: 4rem;
+        }
+        @include tableth {
+            font-size: 2.5rem;
+        }
+    }
+    &__subtitulo{
+        position: absolute;
+        left: 10px;
+        bottom: 2rem;
+        color: map-get($tema, colorFondo);
+        font-size: 2.5rem;
+        font-weight: blod;
+        @include desktop{
+            font-size: 1.5rem;
+        }
+        @include tableth {
+            font-size: 1rem;
+        }
+    }
+}
